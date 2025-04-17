@@ -7,27 +7,20 @@ This project showcases an intelligent **multi-agent research assistant** built u
 ## 🧠 Objective
 
 To build an AI-powered assistant capable of:
-- Searching the web for information
-- Summarizing relevant results
-- Delivering structured answers or reports
+- Searching the web for relevant content
+- Summarizing and analyzing results
+- Delivering structured research findings
 
 ---
 
 ## 🔧 Tools & Libraries
 
-| Tool | Purpose |
-|------|---------|
-| 🧩 `CrewAI` | Multi-agent orchestration |
-| 🔗 `LangChain` | LLM integration |
-| 🔍 `SerperDevTool` | Google Search wrapper |
-| 🤖 `Ollama` | Local/hosted language model for inference |
-
----
-
-## 📂 Project Files
-
-- `AI_Research_Agent.ipynb` — Main notebook demonstrating agent orchestration
-- `README.md` — This documentation
+| Tool              | Purpose                                               |
+|------------------|-------------------------------------------------------|
+| 🧩 `CrewAI`       | Multi-agent orchestration                             |
+| 🔗 `LangChain`    | LLM and agent integration                             |
+| 🔍 `SerperDevTool`| Web search tool to power real-time research           |
+| 🤖 `Ollama`       | Local LLM backend (e.g., Mistral, LLaMA)              |
 
 ---
 
@@ -36,17 +29,16 @@ To build an AI-powered assistant capable of:
 | Agent Role | Description |
 |------------|-------------|
 | **Researcher** | Uses SerperDevTool to gather relevant web content |
-| **Summarizer** | Condenses the findings into digestible formats |
+| **Summarizer** | Condenses findings into digestible formats |
 | **Analyst** | Draws insights or recommendations from the research |
 
 ---
 
 ## 🚀 How It Works
 
-1. Each agent is created using the `Agent` class.
-2. Tasks are assigned using the `Task` class with tools like `SerperDevTool`.
-3. The `Crew` executes tasks in a structured workflow (`sequential` or `hierarchical`).
-4. The output is a collaboratively constructed research summary.
+1. Agents are initialized and assigned tasks via `CrewAI`.
+2. Each agent completes their part using a local LLM powered by Ollama.
+3. The result is a complete research report generated collaboratively.
 
 ---
 
@@ -63,33 +55,5 @@ Download and install Ollama:
 
 Open a terminal and run:
 
-'''bash
-
+```bash
 ollama run mistral
-
----
-
-### 📊 Output Sample
-
-_You can include screenshots here or sample JSON/text outputs of the agent dialogue or final report._
-
----
-
-## 🪄 Ideas for Expansion
-
-- Add a memory module to preserve context across queries
-- Integrate PDF/doc reader to analyze papers
-- Add a frontend UI for natural language prompts
-
----
-
-## 📌 Status
-
-✅ Agents successfully initialized  
-✅ Tasks executed collaboratively  
-✅ Produces working research summaries via LLM
-
-
-## 📜 License
-
-This project is for academic use as part of the Deep Learning coursework.
