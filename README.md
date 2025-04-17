@@ -27,7 +27,7 @@ Welcome to my Deep Learning portfolio! This repository contains all major assign
 
 1. Clone the repository:
    '''bash
-   git clone [https://github.com/yourusername/deep-learning-assignments.git](https://github.com/Kranthisai07/Deep-Learning-Assignments)
+   git clone [https://github.com/Kranthisai07/Deep-Learning-Assignments.git](https://github.com/Kranthisai07/Deep-Learning-Assignments)
    cd deep-learning-assignments
    '''
 
