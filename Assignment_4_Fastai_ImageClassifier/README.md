@@ -14,6 +14,12 @@ To fine-tune a pre-trained image classification model (ResNet34) using Fastai on
 
 ---
 
+## 📂 Dataset
+
+We utilize the [Brain Tumor Classification (MRI) dataset](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri) available on Kaggle. This dataset comprises MRI images categorized into four classes: glioma, meningioma, pituitary tumor, and no tumor.
+
+---
+
 ## ⚙️ Tools & Libraries
 
 | Library       | Purpose                            |
@@ -41,7 +47,7 @@ To fine-tune a pre-trained image classification model (ResNet34) using Fastai on
 
 - `Fastai_HW.ipynb` — Notebook with full training and evaluation pipeline
 - `README.md` — This documentation
-- Dataset (locally structured as `Training/` and `Testing/`, later combined)
+- Dataset (structured as `Training/` and `Testing/` folders)
 
 ---
 
@@ -57,8 +63,7 @@ To fine-tune a pre-trained image classification model (ResNet34) using Fastai on
 
 ## 🧪 Sample Code Snippet
 
-'''python
-
+```python
 learn = cnn_learner(dls, resnet34, metrics=accuracy)
 learn.fine_tune(4)
 interp = ClassificationInterpretation.from_learner(learn)
