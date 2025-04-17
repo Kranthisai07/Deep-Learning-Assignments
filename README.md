@@ -10,7 +10,7 @@ Welcome to my Deep Learning portfolio! This repository contains all major assign
 |-----------:|:------|:------|:-----------|
 | [Assignment 1](./Assignment_1_ResearchAgent) | AI Research Agent | LLM Agents / LangChain | Multi-agent reasoning, web search, summarization |
 | [Assignment 2](./Assignment_2_ZeroShot_vs_BERT) | Zero-Shot vs BERT | NLP / Transformers | Performance comparison on classification task |
-| [Assignment 3](./Assignment_3_RLHF_with_GPT) | RLHF with GPT | Reinforcement Learning / LLMs | PPO training using 'trl', reward modeling |
+| [Assignment 3](./Assignment_3_RLHF_with_GPT) | RLHF with GPT | Reinforcement Learning / LLMs | PPO training using `trl`, reward modeling |
 | [Assignment 4](./Assignment_4_Fastai_ImageClassifier) | Brain Tumor Classifier | Vision / Fastai | ResNet fine-tuning, 4-class MRI classification |
 
 ---
