@@ -17,8 +17,8 @@ Welcome to my Deep Learning portfolio! This repository contains all major assign
 
 ## 🛠️ Tech Stack
 
-- 📦 'fastai', 'torch', 'transformers', 'trl', 'langchain', 'crewai'
-- 📈 'scikit-learn', 'matplotlib', 'pandas', 'tqdm'
+- 📦 `fastai`, `torch`, `transformers`, `trl`, `langchain`, `crewai`
+- 📈 `scikit-learn`, `matplotlib`, `pandas`, `tqdm`
 - 🧠 Pretrained models: BERT, RoBERTa-MNLI, GPT-2, ResNet34, Mistral (via Ollama)
 
 ---
